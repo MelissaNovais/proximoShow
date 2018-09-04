@@ -1,0 +1,59 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+body{
+	background: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be465b88fdf21a6e05ab522458452344&auto=format&fit=crop&w=667&q=80://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec13e2bc38df66aaaf8d88ff4607dfe1&auto=format&fit=crop&w=334&q=80");
+	background-size: 100% 1400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container-form{
+   background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.9;
+    max-width: 500px;
+    height: 100%;
+    padding: 50px;
+    position: absolute;
+    top:50px;
+    right: 0px;
+   
+}
+.form-content{
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 60px;
+    max-width: 500px;
+    height: 350px;
+}
+
+.title-form{
+    font-size: 30px;
+    font-weight: 700px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+hr{
+    margin-bottom: 50px;
+}
+.container-form input:first-child{
+    margin-top: -8px;
+    
+}
+
+.container-form input{
+    margin-bottom: 15px;
+  
+}
+
+.container-form button{
+    margin: 20px;
+  
+}
