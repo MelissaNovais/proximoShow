@@ -5,17 +5,30 @@ html {
     font-family: 'Lato', sans-serif;
     color: #000;
 }
+
+/*Eh a img q ta salva em img/show arruma o cmainho se quiser ver como fica*/
 body{
-	background: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be465b88fdf21a6e05ab522458452344&auto=format&fit=crop&w=667&q=80://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec13e2bc38df66aaaf8d88ff4607dfe1&auto=format&fit=crop&w=334&q=80");
+	background: url("file:///C:/Users/melno/OneDrive/Documentos/proximoShow/img/show.jpg");
 	background-size: 100% 1400px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
+.fas{
+    color: #4B0082;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
 .container-form{
-   background-color: #000;
-    margin: 0 auto;
+    background-color: #000;
     text-align: center;
     opacity: 0.9;
     max-width: 500px;
@@ -27,12 +40,22 @@ body{
    
 }
 .form-content{
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: #fff;
     margin-top: 60px;
     max-width: 500px;
     height: 350px;
 }
+
+.form-content button{
+    background-color: #4B0082;
+    color: #fff;
+}
+
+.form-content button:hover{
+    color: #fff;
+}
+
 
 .title-form{
     font-size: 30px;
